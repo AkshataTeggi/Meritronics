@@ -171,8 +171,8 @@ export default function AddStationPage() {
               </div>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                <div className="space-y-2">
-                  <Label htmlFor="type">Type *</Label>
+                {/* <div className="space-y-2"> */}
+                  {/* <Label htmlFor="type">Type *</Label>
                   <Select
                     name="type"
                     value={formData.type}
@@ -190,7 +190,7 @@ export default function AddStationPage() {
                       ))}
                     </SelectContent>
                   </Select>
-                </div>
+                </div> */}
                 <div className="space-y-2">
                   <Label htmlFor="status">Status *</Label>
                   <Select
